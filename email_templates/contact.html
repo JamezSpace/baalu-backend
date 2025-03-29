@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: 'Helvetica', 'Calibri', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        ul {
+            padding-inline-start: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        You have received a new inquiry via your website's contact form. Here are the details:
+    </p>
+
+    <ul>
+        <li>
+            <b>Name:</b> {{senders_name}}
+        </li>
+        <li>
+            <b>Email:</b> {{senders_email}}
+        </li>
+        <li>
+            <b>Message:</b> {{message}}
+        </li>
+    </ul>
+
+    <p>Please feel free to respond directly to the sender if necessary.</p>
+
+    <p>Best regards.</p>
+</body>
+
+</html>
